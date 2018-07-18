@@ -18,7 +18,7 @@
     <param name="global_frame_id" value="map"/>
     <param name="min_particles" value="20"/>
     <param name="max_particles" value="200"/>
-    <param name="transform_tolerance" value="0.2"/>
+    <param name="transform_tolerance" value="0.25"/>
     <param name="initial_pose_x" value="0.0"/>
     <param name="initial_pose_y" value="0.0"/>
     <param name="initial_pose_a" value="-0.7854"/>
