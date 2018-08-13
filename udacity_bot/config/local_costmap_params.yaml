@@ -3,8 +3,8 @@ local_costmap:
    robot_base_frame: robot_footprint
    update_frequency: 10.0
    publish_frequency: 10.0
-   width: 20.0
-   height: 20.0
-   resolution: 0.05
+   width: 6.0
+   height: 6.0
+   resolution: 0.02 #Based on jackal_race.yaml
    static_map: false
    rolling_window: true
