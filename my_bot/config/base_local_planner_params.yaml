@@ -1,0 +1,7 @@
+TrajectoryPlannerROS:
+
+  holonomic_robot: false
+# Goal Tolerance 
+  yaw_goal_tolerance: 0.05 
+  xy_goal_tolerance: 0.05 
+  controller_frequency: 10

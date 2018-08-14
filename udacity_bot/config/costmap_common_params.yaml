@@ -1,11 +1,11 @@
 map_type: costmap
 
-obstacle_range: 5.0
-raytrace_range: 8.0
+obstacle_range: 5.0 #determines the maximum range sensor reading that will result in an obstacle being put into the costmap
+raytrace_range: 8.0 #determines the range to which we will raytrace freespace given a sensor reading
 
-transform_tolerance: 0.3
+transform_tolerance: 0.3 # maximum amount of latency allowed between frame transforms
 
-inflation_radius: 0.5.5
+inflation_radius: 0.55 # inflation radius of the costmap
 
 observation_sources: laser_scan_sensor
 

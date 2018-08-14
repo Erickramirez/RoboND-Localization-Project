@@ -3,8 +3,8 @@ local_costmap:
    robot_base_frame: robot_footprint
    update_frequency: 10.0
    publish_frequency: 10.0
-   width: 6.0
-   height: 6.0
-   resolution: 0.02 #Based on jackal_race.yaml
-   static_map: false
+   width: 6.0  # size of the local map, default value
+   height: 6.0  # size of the local map, default value
+   resolution: 0.02 #Based on jackal_race.yaml and it is the resolution of the map in meters per cell
+   static_map: false # do not use static map
    rolling_window: true
