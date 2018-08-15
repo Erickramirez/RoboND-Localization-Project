@@ -24,10 +24,6 @@ $ rospack profile
 $ sudo apt-get install ros-kinetic-amcl
 ```
 
-**Note:** We won't be able to provide support for native ROS installations, but you can post in the #ros channel in the ND Slack to start discussions with your fellow students if you face any issues.
-
-Once all the packages are installed, clone the repository on your system and rename the project folder to `udacity_bot`. However, it is recommended that you follow the Classroom instructions on working through the project instead of cloning the repo.
-
 
 ## Run the Project
 
@@ -39,10 +35,20 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
-And then run the following in *separate* terminals -
+And then run the following in *separate* terminals - Udacity bot:
+
 
 ``` bash
-$ roslaunch udacity_bot udacity_bot
-$ roslaunch udacity_bot amcl
-$ rosrun udacity_bot navigation goal
+$ roslaunch udacity_bot udacity_world.launch
+$ roslaunch udacity_bot amcl.launch
+$ rosrun udacity_bot navigation_goal
+```
+
+And then run the following in *separate* terminals - my bot:
+
+
+``` bash
+$ roslaunch my_bot udacity_world.launch
+$ roslaunch my_bot amcl.launch
+$ rosrun my_bot navigation_goal_my_bot
 ```
